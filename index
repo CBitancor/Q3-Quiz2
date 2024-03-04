@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .tables {
+            border: 5px solid black;
+            margin: auto;
+            text-align: center;
+        }
+
+        .tables tbody tr td {
+            color: white;
+        }
+
+                .navbar {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        img {
+            width: 60px;
+            border-radius: 100%;
+        }
+
+        body {
+            background-image: url('https://cdn.wallpapersafari.com/62/83/s6czKf.jpg');
+            height: 150px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            text-align: center;
+            margin: 0;
+        }
+
+        .movie-images {
+            width: 100px;
+            height: 200px;
+            border-radius: 0%;
+        }
+
+        .source {
+            font-size: 5;
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Logo</a> -->
+        <img src="https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-stickcaptamsymbl-1-productimagenowatermark.jpg">
+       <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Genre</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <h1 style="text-align: center;"> Movie Review </h1>
+    <p style="text-align: center;"> Marvel Movies </p>
+
+    <div class="tables">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th> Movie </th>
+                    <th> Synopsis </th>
+                    <th> Casts and Directors </th>
+                    <th> Movie Review </th>
+                    <th> Rating </th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>
+                    <div class="movie-images">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg" class="rounded" alt="Cinque Terre">
+                </td> </div>
+            </div>
+
+                    <td> As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat. </td>
+                    <td> Cast: Chris Hemsworth, Natalie Portman, Tom Hiddleston, Stellan Skarsgård, Colm Feore, Ray Stevenson, Idris Elba, Kat Dennings, Rene Russo, Anthony Hopkins, Tadanobu Asano, Josh Dallas, Jamie Alexander. <br> Director: Kenneth Branagh, </td>
+                    <td> Rewant tripathi <br> <span style="color: grey;">"Way better than the people give it credit for, due to high expectations."</span> </td>
+                    <td>
+                        Rating: 4.7
+                        ⭐⭐⭐⭐⭐
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+              <div class="movie-images">
+                 <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg" class="rounded" alt="Cinque Terre">
+                    </td> </div>
+
+                    <td> A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.
+ </td>
+                    <td> Cast: Robert Downey Jr, Terrence Howard, Jeff Bridges, Gwyneth Paltrow, Shaun Toub, Faran Tahir, Clark Gregg, Leslie Bibb, Paul Bettany <br> Director: Jon Favreau </td>
+                    <td> McKein Mull <br> <span style="color: grey;"> "What a hell of a way to kick off the character of Tony Stark aka Iron-Man as well as the Marvel Cinematic Universe, little did we know it at the time of this movie's release but it had quite a big burden riding on its success."</span> </td>
+                    <td>
+                        Rating: 4.1
+                        ⭐⭐⭐⭐
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                <div class="movie-images">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Doctor_Strange_%282016_film%29_poster.jpg" class="rounded" alt="Cinque Terre">
+                    </td> </div>
+
+                    <td> In Kathmandu, Nepal, a group of rogue sorcerers infiltrate the Kamar-Taj, an enclave that is known only to the Masters of the Mystic Arts. After beheading the librarian, the group's leader Kaecilius steals a forbidden ritual from a book owned by his former mentor, the Ancient One. </td>
+                    <td> Cast: Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Mads Mikkelsen, Tilda Swinton, Michael Stuhlbarg. <br> Director: Scott Derrickson </td>
+                    <td> Krithesha Sujeeve <br> <span style="color: grey;"> Graphics in this movie were amazing. My only problem with this movie was the fact that Steven Strange, the neurosurgeon, is such an unlikeable character in the beginning. </span> </td>
+                    <td>
+                        Rating: 4.4
+                        ⭐⭐⭐⭐
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr style="background-color: white;">
+         <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Find more related movies">
+            <button style="background-color: grey;" class="btn btn-warning" type="button">Search</button>
+          </form>
+          <br>
+          <div class="source">
+          <p style="color: grey;"> Sources:
+            thor 1 ratings - Google Search. (n.d.). https://www.google.com/search?q=thor+1+ratings&rlz=1C1KNTJ_enPH1070PH1070&oq=Thor+1+ratings&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhge0gEIMjQ1OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#vhid=1wd9DIrSnWG8uM:&vssid=l
+<br>
+            Iron man 1 ratings - Google Search. (n.d.). https://www.google.com/search?q=Iron+man+1+ratings&rlz=1C1KNTJ_enPH1070PH1070&oq=iron+man+1+ratings&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MggIARAAGBYYHjIICAIQABgWGB7SAQg1NDgxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+<br>    
+            doctor strange ratings - Google Search. (n.d.). https://www.google.com/search?q=doctor+strange+ratings&sca_esv=6d3c688cdda1d7e1&rlz=1C1KNTJ_enPH1070PH1070&ei=JE7lZc_ECf_1juMPk42ogAk&ved=0ahUKEwjP5tzc4tmEAxX_umMGHZMGCpAQ4dUDCBA&uact=5&oq=doctor+strange+ratings&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmRvY3RvciBzdHJhbmdlIHJhdGluZ3MyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5InidQ9wVY2yZwAXgBkAEAmAGEAaABkhGqAQQ4LjEzuAEDyAEA-AEBmAIWoALfE6gCCsICFhAAGAMYjwEY5QIY6gIYtAIYjAPYAQHCAg4QLhiABBiKBRiRAhjUAsICCxAuGIAEGIoFGJECwgIKEC4YgAQYigUYQ8ICDRAuGIAEGIoFGEMY1ALCAggQABiABBixA8ICLBAuGIAEGIoFGJECGNQCGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYDGPcD2AECwgIKEAAYgAQYigUYQ8ICDhAuGJECGNQCGIAEGIoFwgIdEC4YkQIY1AIYgAQYigUYlwUY3AQY3gQY4ATYAQLCAgsQABiABBiKBRiRAsICChAuGEMYgAQYigXCAggQLhiABBixA8ICBBAAGAPCAgUQLhiABMICJRAuGIAEGIoFGEMYlwUY3AQY3gQY4AQY9AMY8QMY9QMY9gPYAQLCAiMQLhiABBiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2Axj3A9gBAsICCBAAGBYYHhgPmAMOugYECAEYCroGBggCEAEYFJIHBDEuMjE&sclient=gws-wiz-serp
+        </p>
+
+
+
+
+
+    </div>
+        
+</body>
+</html>
